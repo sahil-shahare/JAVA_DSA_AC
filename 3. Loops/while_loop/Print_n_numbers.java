@@ -7,7 +7,7 @@ public class Print_n_numbers{
         int n = sc.nextInt();
         int i = 1;
         while(i<=n){
-            System.out.println(i);
+            System.out.print(i+" ");
             i++;
         }
     }
