@@ -74,4 +74,4 @@ Contributions are welcome! You can help by:
 
 ## License
 
-This project is **unlicensed**, but feel free to adapt and reuse the code for learning or educational purposes. Optionally, specify an open-source license (e.g., MIT, Apache 2.0) here if you’d like to formalize usage terms.
+This project is **unlicensed**, but feel free to adapt and reuse the code for learning or educational purposes.
