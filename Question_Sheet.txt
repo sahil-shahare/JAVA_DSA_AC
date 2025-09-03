@@ -1,0 +1,51 @@
+🚀 Question Sheet – Difficulty Wise
+
+🟢 Easy Level
+1. Even or Odd
+   Write a program to check if a number is even or odd.
+
+2. Find the Sum of n Natural Numbers
+   Write a program to calculate the sum of first n natural numbers.
+
+3. Print Reverse of a Number using Loop
+   Write a program to print the reverse of a given number using a loop (digit by digit).
+
+4. Reverse the Given Number using Loop
+   Write a program to reverse and return the given number.
+
+5. Find Factorial
+   Write a program to find the factorial of a number using a loop.
+
+
+🟡 Medium Level
+6. Prime Number Optimized
+   Write a program to check whether a number is prime using an optimized approach (O(√n)).
+
+7. Print Prime Numbers in a Range
+   Write a program to print all prime numbers between two given numbers.
+
+8. Palindrome Number
+   Write a program to check whether a given number is a palindrome.
+
+9. Linear Search
+   Implement linear search to find an element in an array.
+
+10. Largest/Smallest Number
+    Write a program to find the largest and smallest number in an array.
+
+11. Second Largest/Second Smallest Number
+    Write a program to find the second largest and second smallest number in an array.
+
+
+🔴 Hard Level
+12. Binary Search
+    Implement binary search on a sorted array.
+
+13. Reverse an Array
+    Write a program to reverse the elements of an array.
+
+14. Pairs in an Array
+    Write a program to print all possible pairs in an array.
+
+15. Print Subarrays
+    Write a program to print all possible subarrays of a given array.
