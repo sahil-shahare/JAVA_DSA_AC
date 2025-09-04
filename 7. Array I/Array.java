@@ -78,15 +78,15 @@ public class Array {
         print(number);
     }
 
-    public static void printPairs(int number[]){
+    public static void printPairs(int number[]) {
         if (number == null || number.length < 2) {
             System.out.println("No pairs possible");
             return;
         }
 
-        for(int i=0;i<number.length;i++){
-            for(int j=i+1;j<number.length;j++){
-                System.out.print("("+number[i]+","+number[j]+") ");
+        for (int i = 0; i < number.length; i++) {
+            for (int j = i + 1; j < number.length; j++) {
+                System.out.print("(" + number[i] + "," + number[j] + ") ");
             }
             System.out.println();
         }
@@ -104,6 +104,39 @@ public class Array {
         }
         System.out.println();
     }
+
+    public static void maxSubarraySum(int number[]) {
+        int maxSum = Integer.MIN_VALUE;
+        for (int i = 0; i < number.length; i++) {
+            for (int j = i; j < number.length; j++) {
+                int currSum = 0;
+                for (int k = i; k <= j; k++) {
+                    currSum += number[k];
+                }
+                System.out.println(currSum);
+                // if (maxSum < currSum) {
+                // maxSum = currSum;
+                // }
+                maxSum = Math.max(maxSum, currSum); // Alternate of if Condition
+            }
+        }
+        System.out.println("MaxSum: " + maxSum);
+    }
+
+    public static void kadanes(int number1[]) {
+        int maxSum = Integer.MIN_VALUE;
+        int currSum = 0;
+
+        for (int i = 0; i < number1.length; i++) {
+            currSum += number1[i];
+            if (currSum < 0) {
+                currSum = 0;
+            }
+            maxSum = Math.max(maxSum, currSum);
+        }
+        System.out.print("Max Sum : "+maxSum);
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -130,7 +163,9 @@ public class Array {
 
         // reverse(number);
         // printPairs(number);
-        subArray(number);
+        // subArray(number);
+        // maxSubarraySum(number);
+        kadanes(number);
 
     }
 }
