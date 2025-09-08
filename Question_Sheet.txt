@@ -60,6 +60,9 @@
 18. Count Vowels and Consonants
     Write a program to count the vowels and consonants in a string.
 
+19. Trapped RainWater
+    Write a program to calculate the Trapped water.
+
 
 🔴 Hard Level (Advanced Array & Logic Problems)
 
