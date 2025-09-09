@@ -68,7 +68,7 @@ public class R2 {
         System.out.println();
     }
 
-    //Print Pairs
+    // Print Pairs
     public static void printPairs(int numbers[]) {
         for (int i = 0; i < numbers.length; i++) {
             for (int j = i + 1; j < numbers.length; j++) {
@@ -78,12 +78,12 @@ public class R2 {
         }
     }
 
-    //Print SubArrays
-    public static void printSubArray(int numbers[]){
-        for(int i=0;i<numbers.length;i++){
-            for(int j=i;j<numbers.length;j++){
-                for(int k=i;k<=j;k++){
-                    System.out.print(numbers[k]+" ");
+    // Print SubArrays
+    public static void printSubArray(int numbers[]) {
+        for (int i = 0; i < numbers.length; i++) {
+            for (int j = i; j < numbers.length; j++) {
+                for (int k = i; k <= j; k++) {
+                    System.out.print(numbers[k] + " ");
                 }
                 System.out.println();
             }
@@ -92,22 +92,22 @@ public class R2 {
         System.out.println();
     }
 
-    //Max SubArray Sum 
-    public static void maxSubarraySum(int numbers[]){
-        int maxSum=Integer.MIN_VALUE;
+    // Max SubArray Sum
+    public static void maxSubarraySum(int numbers[]) {
+        int maxSum = Integer.MIN_VALUE;
 
-        for(int i=0;i<numbers.length;i++){
-            for(int j=i;j<numbers.length;j++){
-                int currSum=0;
-                for(int k=i;k<=j;k++){
-                    currSum+=numbers[k];
+        for (int i = 0; i < numbers.length; i++) {
+            for (int j = i; j < numbers.length; j++) {
+                int currSum = 0;
+                for (int k = i; k <= j; k++) {
+                    currSum += numbers[k];
                 }
-                System.out.print(currSum+" ");
-                maxSum=Math.max(maxSum, currSum);
+                System.out.print(currSum + " ");
+                maxSum = Math.max(maxSum, currSum);
             }
             System.out.println();
         }
-        System.out.println("Max Sum : "+maxSum);
+        System.out.println("Max Sum : " + maxSum);
     }
 
     public static void main(String[] args) {
