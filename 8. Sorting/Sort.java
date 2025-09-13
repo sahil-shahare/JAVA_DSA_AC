@@ -20,7 +20,7 @@ public class Sort {
 
     public static void selectionSort(int arr[]) {
         for (int i = 0; i < arr.length - 1; i++) {
-            int minpos = i;
+            int minpos = i; //Integer.MIN_VALUE;
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[minpos] > arr[j]) {
                     minpos = j;
