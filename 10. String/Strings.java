@@ -36,7 +36,7 @@ public class Strings {
     }
 
     public static void main(String[] args) {
-        String str = "racecar";
+        String str = "racecar"; //noon, madam
         // System.out.println(isPalindrome(str));
         String path="WNEENESENNN";
         System.out.println(getShortestPath(path));
