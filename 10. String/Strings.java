@@ -30,15 +30,15 @@ public class Strings {
                 x++;
             }
         }
-        int X2=x*x;
-        int Y2=y*y;
-        return Math.sqrt(X2+Y2);
+        int X2 = x * x;
+        int Y2 = y * y;
+        return Math.sqrt(X2 + Y2);
     }
 
     public static void main(String[] args) {
-        String str = "racecar"; //noon, madam
+        String str = "racecar"; // noon, madam
         // System.out.println(isPalindrome(str));
-        String path="WNEENESENNN";
+        String path = "WNEENESENNN";
         System.out.println(getShortestPath(path));
     }
 }
