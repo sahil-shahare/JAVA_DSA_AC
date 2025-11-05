@@ -107,33 +107,33 @@ public class R1 {
                 }
                 System.out.println(currSum);
                 // if (maxSum < currSum) {
-                //     maxSum = currSum;
+                // maxSum = currSum;
                 // }
-                maxSum=Math.max(maxSum, currSum); //Alternate of if Condition
+                maxSum = Math.max(maxSum, currSum); // Alternate of if Condition
             }
         }
         System.out.println("MaxSum: " + maxSum);
     }
 
-    public static void kadanes(int number1[]){
+    public static void kadanes(int number1[]) {
         int maxSum = Integer.MIN_VALUE;
-        int currSum=0;
+        int currSum = 0;
 
-        for(int i=0;i<number1.length;i++){
-            currSum+=number1[i];
-            if(currSum<0){
-                currSum=0;
+        for (int i = 0; i < number1.length; i++) {
+            currSum += number1[i];
+            if (currSum < 0) {
+                currSum = 0;
             }
-            maxSum=Math.max(maxSum, currSum);
+            maxSum = Math.max(maxSum, currSum);
         }
-        System.out.println("Max Sum : "+maxSum);
+        System.out.println("Max Sum : " + maxSum);
     }
 
     public static void main(String[] args) {
         int[] numbers = { 2, 4, 6, 8, 10, 12, 14, 16, 18 };
         int key = 18;
 
-        int[] number1 = {-2,-3,4,-1,-2,1,5,-3};
+        int[] number1 = { -2, -3, 4, -1, -2, 1, 5, -3 };
 
         // System.out.println("Key at index : " + linearSearch(numbers, key));
 
