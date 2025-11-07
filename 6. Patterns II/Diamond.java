@@ -13,6 +13,7 @@ public class Diamond {
             }
             System.out.println();
         }
+
         
         // 2nd half
         for (int i = total_rows; i >= 1; i--) {
