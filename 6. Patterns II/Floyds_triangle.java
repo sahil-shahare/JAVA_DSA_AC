@@ -13,7 +13,6 @@ public class Floyds_triangle {
         }
         System.out.println();
     }
-
     public static void main(String[] args) {
         floyds_triangle(5);
     }
