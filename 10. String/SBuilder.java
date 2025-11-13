@@ -4,7 +4,7 @@ public class SBuilder {
     public static String toUpperCase(String str){
         StringBuilder sb = new StringBuilder("");
 
-        char ch=Character.toUpperCase(str.charAt(0));
+        char ch=(char) Character.toUpperCase(str.charAt(0));
         sb.append(ch);
 
         for(int i=1;i<str.length();i++){
