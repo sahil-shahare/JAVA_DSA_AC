@@ -11,4 +11,9 @@ public class Character {
         }
         System.out.println("");
     }
+
+    public static Object toUpperCase(char charAt) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'toUpperCase'");
+    }
 }
