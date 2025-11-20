@@ -5,14 +5,14 @@ public class SBuilder {
     public static String toUpperCase(String str) {
         StringBuilder sb = new StringBuilder("");
 
-        char ch = (char) Character.toUpperCase(str.charAt(0));
+        char ch = java.lang.Character.toUpperCase(str.charAt(0));
         sb.append(ch);
 
         for (int i = 1; i < str.length(); i++) {
             if (str.charAt(i) == ' ' && i < str.length() - 1) {
                 sb.append(str.charAt(i));
                 i++;
-                sb.append(Character.toUpperCase(str.charAt(i)));
+                sb.append(String.valueOf(str.charAt(i)).toUpperCase());
             } else {
                 sb.append(str.charAt(i));
             }
