@@ -16,7 +16,7 @@ class Pen {
     private String color;
     private int tip;
 
-    //Setter
+    // Setter
     void setColor(String newColor) {
         this.color = newColor;
     }
@@ -24,11 +24,13 @@ class Pen {
     void setTip(int newTip) {
         this.tip = newTip;
     }
-    //Getter
-    String getColor(){
+
+    // Getter
+    String getColor() {
         return this.color;
     }
-    int getTip(){
+
+    int getTip() {
         return this.tip;
     }
 }
