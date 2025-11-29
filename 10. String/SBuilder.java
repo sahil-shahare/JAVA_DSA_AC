@@ -18,6 +18,7 @@ public class SBuilder {
             }
         }
         return sb.toString();
+        
     }
 
     public static void main(String[] args) {
@@ -26,6 +27,8 @@ public class SBuilder {
         // sb.append(ch + " ");
         // }
         // System.out.println(sb);
+
+        System.gc();
 
         String str = "hi, i am sahil";
         System.out.println(toUpperCase(str));
