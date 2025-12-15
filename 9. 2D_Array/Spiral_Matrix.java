@@ -48,7 +48,6 @@ public class Spiral_Matrix {
             }
         }
         System.out.println("Sum : " + sum);
-
     }
 
     // Search
