@@ -34,6 +34,7 @@ public class Strings {
         int Y2 = y * y;
         return Math.sqrt(X2 + Y2);
     }
+
     public static void main(String[] args) {
         String str = "racecar"; // noon, madam
 
