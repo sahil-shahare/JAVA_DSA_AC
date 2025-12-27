@@ -7,7 +7,6 @@ public class Largest_2_num {
             System.out.println("The Largest number is : " + num1);
         } else if (num2 > num1) {
             System.out.println("The Largest number is : " + num2);
-            
         } else {
             System.out.println("Both numbers are equal.");
         }
