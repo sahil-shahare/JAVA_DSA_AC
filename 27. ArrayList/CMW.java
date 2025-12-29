@@ -14,7 +14,7 @@ public class CMW {
     }
 }
 
-class BruteForce {//O(n^2)
+class BruteForce {// O(n^2)
     public int storeWater(List<Integer> height) {
         int maxWater = 0;
 
@@ -31,7 +31,7 @@ class BruteForce {//O(n^2)
 }
 
 // 2 Pointer Approch
-class Optimized {//O(n)
+class Optimized {// O(n)
 
     public int storeWater(List<Integer> height) {
         int maxWater = 0;

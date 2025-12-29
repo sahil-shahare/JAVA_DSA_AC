@@ -39,10 +39,9 @@ class Optimized {
             if (list.get(lp) + list.get(rp) == target) {
                 return true;
             } else if (list.get(lp) + list.get(rp) < target) {
-                lp =(lp+1)%n;
-            }
-            else{
-                rp = (n+rp-1)%n;
+                lp = (lp + 1) % n;
+            } else {
+                rp = (n + rp - 1) % n;
             }
         }
         return false;

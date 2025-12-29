@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Sort {
     public static void main(String[] args) {
-        List<Integer> list =new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
         list.add(2);
         list.add(5);
         list.add(9);
@@ -13,12 +13,12 @@ public class Sort {
 
         System.out.println(list);
 
-        //asceding
+        // asceding
         Collections.sort(list);
         System.out.println(list);
 
-        //descending
-        Collections.sort(list,Collections.reverseOrder());
+        // descending
+        Collections.sort(list, Collections.reverseOrder());
         System.out.println(list);
 
     }
