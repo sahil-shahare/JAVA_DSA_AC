@@ -3,7 +3,7 @@ import java.util.List;
 
 public class CMW {
     public static void main(String[] args) {
-        List<Integer> height = Arrays.asList(1, 8, 6, 2, 5, 4, 8, 3, 7);
+        List<Integer> height = Arrays.asList(1, 8, 6, 2, 6, 5, 4, 8, 3, 7);
 
         // BruteForce bf = new BruteForce();
         // System.out.println("BruteForce : "+bf.storeWater(height));
