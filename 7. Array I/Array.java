@@ -123,7 +123,7 @@ public class Array {
         System.out.println("MaxSum: " + maxSum);
     }
 
-    //kadanes
+    // kadanes
     public static void kadanes(int number1[]) {
         int maxSum = Integer.MIN_VALUE;
         int currSum = 0;
@@ -188,7 +188,7 @@ public class Array {
         // key));
 
         // reverse(number);
-        // printPairs(number);
+        printPairs(number);
         // subArray(number);
         // maxSubarraySum(number);
         // kadanes(number);
