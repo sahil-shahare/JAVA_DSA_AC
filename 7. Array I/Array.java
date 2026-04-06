@@ -193,7 +193,7 @@ public class Array {
         // maxSubarraySum(number);
         // kadanes(number);
 
-        int[] height = { 4, 2, 0, 6, 3, 2, 5 };
+        int[] height = { 4, 2, 0, 6, 3, 2, 5, 8 };
         System.out.println(trappedWater(height));
 
     }
