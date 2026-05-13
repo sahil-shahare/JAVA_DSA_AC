@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Pair_Sum1 {
     public static void main(String[] args) {
-        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
+        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6);
         int target = 50;
 
         // BruteForce bf = new BruteForce();
