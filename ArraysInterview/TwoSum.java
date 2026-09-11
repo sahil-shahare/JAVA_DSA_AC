@@ -12,7 +12,7 @@ public class TwoSum {
         Map<Integer, Integer> map = new HashMap<>();
 
         for (int i = 0; i < n.length; i++) {
-            int result = target = n[i];
+            int result = target - n[i];
             if (map.containsKey(result)) {
                 // System.out.println("Index: " + map.get(result) + ", " + i);
                 return new int[] { map.get(result), i };
